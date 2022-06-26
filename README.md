@@ -5,3 +5,6 @@ https://patctan.github.io/Module_1_Challenge/
 
 https://github.com/patctan/Module_1_Challenge
 
+![1st Screenshot](Screenshot1.png)
+![2nd Screenshot](Screenshot2.png)
+![3rd Screenshot](Screenshot3.png)
