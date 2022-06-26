@@ -72,6 +72,37 @@ p {
     background-position: center;
 }
 
+/*Determines the size of the elements, as well as how and where they are displayed.*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Consolidated the class selectors (search-engine-optimization, online-reputation-management, and social-media-marketing) 
+into search-online-social */
+
+/*Determines the margin, padding, size, and appearance of the content within this class tag.*/    
+.search-online-social {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Determines the max height of the image.*/
+.search-online-social img {
+    max-height: 200px;
+}
+
+/*Determines the size and placement of the headers.*/
+.search-online-social h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 /*Determines where the image will float and be positioned relative to the text.*/
 .float-left {
     float: left;
@@ -82,13 +113,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/*Determines the size of the elements, as well as how and where they are displayed.*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /*Determines the margin, padding, width, height, font, background color, and where the contents
@@ -123,31 +147,6 @@ of this class tag will float.*/
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Consolidated the class selectors (search-engine-optimization, online-reputation-management, and social-media-marketing) 
-into search-online-social */
-
-/*Determines the margin, padding, size, and appearance of the content within this class tag.*/    
-.search-online-social {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*Determines the max height of the image.*/
-.search-online-social img {
-    max-height: 200px;
-}
-
-
-/*Determines the size and placement of the headers.*/
-.search-online-social h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /*Determines the size, appearance, and placement of the footer.*/
