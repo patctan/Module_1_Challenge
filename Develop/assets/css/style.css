@@ -1,11 +1,11 @@
-* /*Determines the padding and margin of the entire page*/ 
+* /*Determines the size of the elements.*/ 
 {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/*The background color of the body will be #d9dcd6*/
+/*Determines the background color of the element*/
 body {
     background-color: #d9dcd6;
 }
@@ -18,13 +18,13 @@ body {
     color: #ffffff;
 }
 
-/*The "Horiseon" in the header will be displayed in inline-block, and have a font-size of 48px.*/
+/*Determines the size and appearance of "Horiseon" in the header.*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/*The color of the "seo" in "Horiseon" will be #d9dcd6.*/
+/*Determines the color of the "seo" in "Horiseon."*/
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -44,20 +44,20 @@ and where they will float.*/
     list-style-type: none;
 }
 
-/*The "Search Engine Optimization," "Online Reputation Management," and
-"Social Media Marketing" will be displayed as inline-block, with a margin 25px from the left.*/
+/*Determines how "Search Engine Optimization," "Online Reputation Management," and
+"Social Media Marketing" will be displayed.*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/*The color of the hyperlinks will be #ffffff, and have no text decoration*/
+/*Determines the color and appearance of the hyperlinks.*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
-/*The paragraphs will have a font-size of 16px*/
+/*Determines the font size of this element.*/
 p {
     font-size: 16px;
 }
@@ -72,20 +72,19 @@ p {
     background-position: center;
 }
 
-/*The image will float to the left of the text, and have a margin 25px from the right.*/
+/*Determines where the image will float and be positioned relative to the text.*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
-/*The image will float to the right of the text, and have a margin of 25px from the left.*/
+/*Determines where the image will float and be positioned relative to the text.*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/*The content within this class tag will have a width of 75%, be displayed as inline-block, and
-have a margin 20px from the left*/
+/*Determines the size of the elements, as well as how and where they are displayed.*/
 .content {
     width: 75%;
     display: inline-block;
@@ -107,20 +106,19 @@ of this class tag will float.*/
 
 /* Consolidated the class selectors (benefit-lead, benefit-brand, benefit-cost) into lead-brand-cost */
 
-/*The margin will be 32px from the bottom, and have a color of #ffffff.*/
+/*Determines the color and placement of the elements.*/
 .lead-brand-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*The margin will be 10px from the bottom, and be aligned to he center.*/
+/*Determines the alignment and placement of the elements.*/
 .lead-brand-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*The image will be displayed as a block element, and will have the following margin
-and max-width.*/
+/*Determines how the image will be displayed, as well as its size and margin.*/
 .lead-brand-cost img {
     display: block;
     margin: 10px auto;
@@ -130,8 +128,7 @@ and max-width.*/
 /* Consolidated the class selectors (search-engine-optimization, online-reputation-management, and social-media-marketing) 
 into search-online-social */
 
-/*Determines the margin, padding, height, font, background color, and color of the content within
-this class tag.*/    
+/*Determines the margin, padding, size, and appearance of the content within this class tag.*/    
 .search-online-social {
     margin-bottom: 20px;
     padding: 50px;
@@ -141,20 +138,19 @@ this class tag.*/
     color: #ffffff;
 }
 
-/*The image will have a max height of 200px*/
+/*Determines the max height of the image.*/
 .search-online-social img {
     max-height: 200px;
 }
 
 
-/*The headers will have a margin 20px from the bottom, and a font size of 36px.*/
+/*Determines the size and placement of the headers.*/
 .search-online-social h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*The footer will have a padding of 30px, be pushed below left and right floated elemnts,
-have the following font, and have its text aligned in the center.*/
+/*Determines the size, appearance, and placement of the footer.*/
 .footer {
     padding: 30px;
     clear: both;
@@ -162,7 +158,7 @@ have the following font, and have its text aligned in the center.*/
     text-align: center;
 }
 
-/*The heading of the footer will have a font size of 20px.*/
+/*Determines the font size of the element.*/
 .footer h2 {
     font-size: 20px;
 }
