@@ -1,0 +1,164 @@
+* /*Determines the size of the elements.*/ 
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Determines the background color of the element*/
+body {
+    background-color: #d9dcd6;
+}
+
+/*Determines the parameters, font, background color, and color of the header*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/*Determines the size and appearance of "Horiseon" in the header.*/
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/*Determines the color of the "seo" in "Horiseon."*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*Determines the padding and margin of the hyperlinks in the header, as well as their font, font size,
+and where they will float.*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/*The unordered list (the hyperlinks) in the header will not have a list-style-type.*/
+.header div ul {
+    list-style-type: none;
+}
+
+/*Determines how "Search Engine Optimization," "Online Reputation Management," and
+"Social Media Marketing" will be displayed.*/
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/*Determines the color and appearance of the hyperlinks.*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*Determines the font size of this element.*/
+p {
+    font-size: 16px;
+}
+
+/*Determines the background image, as well as its dimensions, positioning, and margin.*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*Determines where the image will float and be positioned relative to the text.*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*Determines where the image will float and be positioned relative to the text.*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Determines the size of the elements, as well as how and where they are displayed.*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*Determines the margin, padding, width, height, font, background color, and where the contents
+of this class tag will float.*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Consolidated the class selectors (benefit-lead, benefit-brand, benefit-cost) into lead-brand-cost */
+
+/*Determines the color and placement of the elements.*/
+.lead-brand-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/*Determines the alignment and placement of the elements.*/
+.lead-brand-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/*Determines how the image will be displayed, as well as its size and margin.*/
+.lead-brand-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Consolidated the class selectors (search-engine-optimization, online-reputation-management, and social-media-marketing) 
+into search-online-social */
+
+/*Determines the margin, padding, size, and appearance of the content within this class tag.*/    
+.search-online-social {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/*Determines the max height of the image.*/
+.search-online-social img {
+    max-height: 200px;
+}
+
+
+/*Determines the size and placement of the headers.*/
+.search-online-social h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*Determines the size, appearance, and placement of the footer.*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/*Determines the font size of the element.*/
+.footer h2 {
+    font-size: 20px;
+}
